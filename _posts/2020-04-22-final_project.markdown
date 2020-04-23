@@ -12,7 +12,7 @@ Going into my final project I was unsure of what to build. As a starting pointin
 
 My application allows users to signup for an account and store their information in a Rails API user table, to be accessed later for login.  Users accounts are secured using the bcrypt gem to ensure all passwords are encrypted. After a user is logged in, their info is persisted on the clientside using session cookies which remain available until session reset on logout. Users can create multiple lists which have full CRUD capability, and lists are capable of having multiple meals while also belonging to the user. This allows users to customize meal plans, and compile cooking or outing ideas. 
 
-![](https://imgur.com/iEPd7dF)
+[](https://drive.google.com/file/d/1I7MoEnIijJ4RNsL28dxCtAchqUCuWsGA/view?usp=sharing)
 
 I have two main pages for my Yelp API and Forkify API, which return the data of the fetch requests once a user enters a search term. My restaurants' component returns data displayed in cards,  including the place's location marker on the map rendered by Google. The user can then click on the restaurant cards and see more information about the specific restaurant, and also select a list of theirs to add it to. The recipes main page has the same funtionality minus the map. This allows users to easily browse meal options and then save them in a customizable list. Once a restaurant or recipe is added onto a list, the user is able to edit, delete, and show further details. Recipes have urls for easy follow-along instructions and restaurants have addresses for easy location tracking on their card block.
 
